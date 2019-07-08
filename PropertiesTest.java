@@ -1,4 +1,5 @@
- Properties properties = new Properties();
+//读取配置文件
+Properties properties = new Properties();
  InputStream inputStream = Object.class.getResourceAsStream("/myConfig.properties");
   try {
             properties.load(inputStream);
